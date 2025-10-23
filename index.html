@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -8,79 +9,103 @@
 </head>
 <body>
   <!-- HEADER -->
-  <header class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
-      <h1>ShopeeIntel</h1>
-      <p>Trí tuệ nhân tạo tối ưu chiến lược marketing của Shopee bằng cách nhận diện khách hàng trung thành và loại bỏ deal hunter.</p>
-      <a href="#solution" class="btn">Khám phá Giải pháp</a>
+  <header>
+    <nav class="navbar">
+      <div class="logo">ShopeeIntel</div>
+      <ul class="nav-links">
+        <li><a href="#about">Giới thiệu</a></li>
+        <li><a href="#problem">Vấn đề</a></li>
+        <li><a href="#solution">Giải pháp</a></li>
+        <li><a href="#ai">AI</a></li>
+        <li><a href="#team">Nhóm</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
+      </ul>
+      <a href="#demo" class="btn-nav">Xem Demo</a>
+    </nav>
+
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Tối ưu chiến lược Marketing bằng Trí tuệ Nhân tạo</h1>
+        <p>Dự án ShopeeIntel giúp Shopee nhận diện khách hàng trung thành, loại bỏ deal hunter và tối ưu chi phí quảng cáo.</p>
+        <a href="#solution" class="btn-main">Khám phá Giải pháp</a>
+      </div>
     </div>
   </header>
 
-  <!-- PROBLEM -->
-  <section id="problem" class="section">
-    <h2>🧩 Vấn đề</h2>
+  <!-- GIỚI THIỆU -->
+  <section id="about" class="section">
+    <h2>Tổng quan & Mục tiêu</h2>
     <p>
-      Shopee đang đối mặt với <strong>tỷ lệ khách hàng quay lại thấp</strong> sau các chiến dịch khuyến mãi.
-      Ngân sách marketing bị tiêu tốn vào nhóm <em>“deal hunter”</em> — những người chỉ mua một lần rồi rời đi,
-      dẫn đến ROI thấp và tăng trưởng thiếu bền vững.
-    </p>
-  </section>
-
-  <!-- SOLUTION -->
-  <section id="solution" class="section alt">
-    <h2>🚀 Giải pháp - ShopeeIntel</h2>
-    <p>
-      <strong>ShopeeIntel</strong> là hệ thống <strong>Machine Learning</strong> được huấn luyện trên dữ liệu người dùng Shopee
-      nhằm dự đoán ai có khả năng quay lại mua hàng và ai chỉ là “deal hunter”.
+      <strong>ShopeeIntel</strong> là dự án nghiên cứu ứng dụng Machine Learning giúp sàn thương mại điện tử <strong>Shopee</strong> 
+      tối ưu chiến dịch marketing thông qua việc phân loại người dùng, nhận diện nhóm khách hàng trung thành và hạn chế chi phí cho nhóm "deal hunter".
     </p>
 
-    <div class="cards">
-      <div class="card">
-        <h3>🎯 Mục tiêu</h3>
-        <ul>
-          <li>Tăng tỷ lệ giữ chân khách hàng <strong>+20%</strong></li>
-          <li>Giảm chi phí marketing <strong>-20%</strong></li>
-          <li>Tăng giá trị vòng đời khách hàng <strong>+10%</strong></li>
-        </ul>
+    <div class="goals">
+      <div class="goal">
+        <h3>Tăng trưởng bền vững</h3>
+        <p>Tập trung ngân sách marketing cho nhóm khách hàng trung thành, nâng cao giá trị vòng đời (CLV).</p>
       </div>
-      <div class="card">
-        <h3>🧠 Công nghệ</h3>
-        <ul>
-          <li>Machine Learning với AUC = 0.92</li>
-          <li>Precision = 82%, Recall = 86%</li>
-          <li>F1-score = 0.84, Accuracy = 88%</li>
-        </ul>
+      <div class="goal">
+        <h3>Nâng cao hiệu quả quảng cáo</h3>
+        <p>Ứng dụng mô hình AI để dự đoán hành vi quay lại, giúp tối ưu remarketing.</p>
+      </div>
+      <div class="goal">
+        <h3>Tự động hóa quyết định</h3>
+        <p>Cập nhật dự đoán và gợi ý chiến dịch theo thời gian thực, dựa trên hành vi người dùng mới.</p>
       </div>
     </div>
   </section>
 
-  <!-- AI VALUE -->
-  <section id="ai" class="section">
-    <h2>📊 Ứng dụng AI trong Kinh doanh</h2>
+  <!-- VẤN ĐỀ -->
+  <section id="problem" class="section alt">
+    <h2>Vấn đề Doanh nghiệp</h2>
+    <p>
+      Shopee phải đối mặt với tình trạng <strong>ngân sách quảng cáo bị lãng phí</strong> cho nhóm người dùng chỉ mua hàng trong các chương trình giảm giá ngắn hạn — gọi là “deal hunters”.
+      Điều này làm giảm ROI và khiến chiến lược giữ chân khách hàng thiếu hiệu quả.
+    </p>
+  </section>
+
+  <!-- GIẢI PHÁP -->
+  <section id="solution" class="section">
+    <h2>Giải pháp ShopeeIntel</h2>
+    <p>
+      Dự án <strong>ShopeeIntel</strong> ứng dụng Machine Learning để <strong>phân tích dữ liệu lịch sử giao dịch và hành vi người dùng</strong>, 
+      từ đó xác định nhóm khách hàng có tiềm năng trung thành, giúp Shopee:
+    </p>
+    <ul class="list">
+      <li>Tăng tỷ lệ giữ chân khách hàng thêm 20%</li>
+      <li>Giảm chi phí quảng cáo trung bình 20%</li>
+      <li>Tăng giá trị vòng đời khách hàng (CLV) 10%</li>
+      <li>Độ chính xác mô hình: 88%, F1-score: 0.84</li>
+    </ul>
+  </section>
+
+  <!-- ỨNG DỤNG AI -->
+  <section id="ai" class="section alt">
+    <h2>Ứng dụng AI trong Marketing</h2>
     <div class="cards">
       <div class="card">
         <h3>Nhận diện khách hàng trung thành</h3>
-        <p>Dự đoán khả năng quay lại mua hàng, phân loại khách hàng theo hành vi và giá trị.</p>
+        <p>Phân tích hành vi mua hàng để xác định người dùng có khả năng quay lại cao.</p>
       </div>
       <div class="card">
-        <h3>Tối ưu ngân sách marketing</h3>
-        <p>Tập trung chi phí cho nhóm khách hàng tiềm năng, loại bỏ lãng phí vào nhóm “deal hunter”.</p>
+        <h3>Tối ưu chi phí quảng cáo</h3>
+        <p>Tự động phân bổ ngân sách dựa trên dự đoán ROI của từng nhóm khách hàng.</p>
       </div>
       <div class="card">
-        <h3>Cá nhân hóa trải nghiệm</h3>
-        <p>Tự động gợi ý ưu đãi phù hợp từng người dùng dựa trên lịch sử tương tác và hành vi.</p>
+        <h3>Cá nhân hóa ưu đãi</h3>
+        <p>Gợi ý chương trình khuyến mãi phù hợp với từng nhóm khách hàng.</p>
       </div>
     </div>
   </section>
 
-  <!-- TEAM -->
-  <section id="team" class="section alt">
-    <h2>👥 Nhóm Thực Hiện</h2>
-    <p class="center">Dự án được thực hiện bởi <strong>Nhóm 1 – ShopeeIntel</strong>, gồm 7 thành viên đầy nhiệt huyết và sáng tạo.</p>
+  <!-- NHÓM -->
+  <section id="team" class="section">
+    <h2>Nhóm Thực hiện</h2>
+    <p class="center">Dự án được phát triển bởi <strong>Nhóm 1 – ShopeeIntel</strong> gồm 7 thành viên:</p>
 
     <div class="team-grid">
-      <div class="member"><h3>Nguyễn Thanh Tâm</h3><p>Trưởng nhóm - AI Modeling</p></div>
+      <div class="member"><h3>Nguyễn Thanh Tâm</h3><p>Trưởng nhóm – AI Modeling</p></div>
       <div class="member"><h3>Huỳnh Trần Thế Ngọc</h3><p>Phân tích nghiệp vụ</p></div>
       <div class="member"><h3>Lê Ngọc Bảo</h3><p>Frontend & Visualization</p></div>
       <div class="member"><h3>Lương Thế Phong</h3><p>Data Engineer</p></div>
@@ -90,7 +115,15 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- LIÊN HỆ -->
+  <section id="contact" class="section alt">
+    <h2>Liên hệ</h2>
+    <p class="center">
+      <strong>Email:</strong> shopeeintel.team@gmail.com <br>
+      <strong>Địa chỉ:</strong> 232 Võ Thị Sáu, TP.HCM
+    </p>
+  </section>
+
   <footer>
     <p>© 2025 Nhóm 1 - ShopeeIntel | AI for Smart Marketing</p>
   </footer>
